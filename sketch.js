@@ -21,7 +21,7 @@ function setup() {
 
   hero = new Hero(400,50,150);
   rope = new Rope(hero.body, { x: 400, y: 50 });
-  monster = new Monster(1500,10,222);
+  //monster = new Monster(1500,10,222);
 
   box1 = new Box(900, 100, 50, 25);
   box2 = new Box(900, 100, 50, 25);
@@ -53,10 +53,10 @@ function draw() {
 
   hero.display();
   rope.display();
-  monster.display();
+  //monster.display();
 
 }
-
+/*
 function mouseDragged() {
       Matter.Body.setPosition(hero.body,{x:mouseX,y:mouseY});
   }
@@ -64,5 +64,5 @@ function mouseDragged() {
        rope.attach(hero.body);
        World.add(world, this.body);
     }
-
+*/
  
