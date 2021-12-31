@@ -10,7 +10,7 @@ class Hero {
 		this.y=y;
 		this.r=r;
 		this.image=loadImage("walk-person-png.png");
-		this.body=Bodies.circle(this.x, this.y, (this.r)/2, options);
+		this.body=Bodies.circle(this.x, this.y, this.r, options);
 		World.add(world, this.body);
 
 	}
@@ -23,7 +23,7 @@ class Hero {
 			rectMode(CENTER)
 			fill(255,0,255)
 			imageMode(CENTER);
-			image(this.image, 0,0,this.r+100, this.r)
+			image(this.image, 0,0,this.r, this.r)
 			pop()
 			
 	}
