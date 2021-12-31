@@ -56,7 +56,7 @@ function draw() {
   //monster.display();
 
 }
-/*
+
 function mouseDragged() {
       Matter.Body.setPosition(hero.body,{x:mouseX,y:mouseY});
   }
@@ -64,5 +64,5 @@ function mouseDragged() {
        rope.attach(hero.body);
        World.add(world, this.body);
     }
-*/
+
  
