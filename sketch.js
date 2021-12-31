@@ -19,7 +19,7 @@ function setup() {
   ground = new Ground(600, 600, 400000, 20);
   ground2 = new Ground(1700,400,40,9000000)
 
-  hero = new Hero(400,800,250);
+  hero = new Hero(400,800,150);
   rope = new Rope(hero.body, { x: 500, y: 50 });
   monster = new Monster(1500,10,222);
 
