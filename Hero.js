@@ -17,6 +17,8 @@ class Hero {
 	
 	display()
 	{
+			this.body.x=mouseX;
+			this.body.y=mouseY;
 			var heroPos=this.body.position;		
 			push()
 			translate(heroPos.x, heroPos.y-100);
